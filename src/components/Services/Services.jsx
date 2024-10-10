@@ -83,22 +83,23 @@ const Services = () => {
         <div className="max-w-[1280px] py-4 flex flex-col justify-center items-center px-5 md:px-0">
           {/* Heading */}
           <div className="my-4">
-            <h2 className="text-2xl md:text-4xl font-semibold md:text-center serviceHeading">
+            <h2 className="text-2xl md:text-6xl font-semibold md:text-center serviceHeading">
               <span className="text-[#3919BA]">DMS</span> with all modules and
-              reports you need run OEM
+              reports you need run OEM{" "}
+              <span className="hidden md:block">and dealership</span>
             </h2>
-            <h2 className="text-2xl md:text-4xl font-semibold md:text-center serviceHeading">
+            <h2 className="text-2xl md:hidden md:text-6xl font-semibold md:text-center serviceHeading">
               and dealership.
             </h2>
           </div>
 
           {/* Paragraph */}
           <div className="flex flex-col md:items-center">
-            <p className="text-lg md:text-xl text-[#1C1C1C] servicePara1">
+            <p className="text-lg md:text-xl font-medium text-[#1C1C1C] servicePara1">
               Build with years of experience and used by leading{" "}
               <span className="md:hidden">auto maker</span>
             </p>
-            <p className="text-lg md:text-xl text-[#1C1C1C] servicePara1 hidden md:block">
+            <p className="text-lg md:text-xl font-medium text-[#1C1C1C] servicePara1 hidden md:block">
               auto maker
             </p>
           </div>

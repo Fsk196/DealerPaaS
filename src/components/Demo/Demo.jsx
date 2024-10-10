@@ -67,14 +67,14 @@ const Demo = () => {
         className="w-full h-screen flex flex-col justify-center items-center shadow-lg px-5 md:px-0"
       >
         <div className="w-full max-w-[1280px] ">
-          <div>
+          <div className="flex flex-col md:gap-4">
             {/* Heading */}
             <div>
-              <h2 className="md:text-4xl text-2xl font-semibold demoHeading md:text-center">
+              <h2 className="md:text-6xl text-2xl font-semibold demoHeading md:text-center">
                 <span className="text-[#3919BA]">DealerPaas</span> is
                 future-ready. Seamless Management
               </h2>
-              <h2 className="md:text-4xl text-2xl font-semibold demoHeading md:text-center">
+              <h2 className="md:text-6xl text-2xl font-semibold demoHeading md:text-center">
                 of electric vehicle ecosystem.
               </h2>
             </div>
@@ -98,10 +98,10 @@ const Demo = () => {
           {/* Demo  */}
           <div className="flex flex-col md:flex-row justify-between gap-4 md:gap-0 w-full mt-[89px]">
             <div className="flex flex-col demoLeft">
-              <h2 className="md:text-3xl text-2xl font-medium">
+              <h2 className="md:text-4xl text-2xl font-semibold">
                 Watch <span className="text-[#3919BA]">DMS</span> in action for
               </h2>
-              <h2 className="md:text-3xl text-2xl font-medium">
+              <h2 className="md:text-4xl text-2xl font-semibold">
                 Service Module
               </h2>
 

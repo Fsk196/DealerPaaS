@@ -35,17 +35,17 @@ const Story = () => {
   }, []);
   return (
     <>
-      <div className="md:h-[530px] w-full bg-[#3919BA] flex justify-center items-center">
-        <div className="w-full h-full max-w-[1280px]  py-10 md:py-0 text-white flex flex-col md:flex-row justify-between items-center storyCard px-5 md:px-0">
+      <div className="md:h-[530px] w-full bg-gradient-to-b from-white via-white to-[#3919BA]/60 flex justify-center items-center shadow-lg rounded-lg">
+        <div className="w-full h-full max-w-[1280px]  py-10 md:py-0 text-black flex flex-col md:flex-row justify-between items-center storyCard px-5 md:px-0">
           <div className="flex flex-col gap-4 storyLeft">
-            <h2 className="font-medium text-2xl">Our Story</h2>
+            <h2 className="font-medium text-3xl text-[#3919BA]">Our Story</h2>
 
-            <div className="text-base font-medium">
+            <div className="text-2xl font-semibold">
               <p>Developed in India’s auto city- Pune using HiPaaS AI </p>
               <p>Augmented Application Development Framework</p>
             </div>
 
-            <div className="text-sm">
+            <div className="text-base">
               <p>As life-long Automation enthusiasts from a family of 3 </p>
               <p>
                 generations of software engineers, the layout was firmly laid{" "}
@@ -58,7 +58,7 @@ const Story = () => {
             </div>
 
             <div>
-              <Button className="bg-black button mt-[16px] demoButton px-4 py-5 text-white hover:bg-black/60 shadow-md">
+              <Button className="bg-[#3919BA] button mt-[16px]  px-4 py-5 text-white hover:bg-[#3919BA]/80 shadow-md">
                 <a href="#contact" className="scroll-smooth">
                   Request a Demo
                 </a>
