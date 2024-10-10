@@ -22,7 +22,7 @@ const Scroller = () => {
           ].map((car) => (
             <img
               key={car}
-              src={`/public/assets/${car}.png`}
+              src={`/assets/${car}.png`}
               className="cursor-pointer w-24 h-auto" // Adjust width for responsiveness
               alt={car}
             />
@@ -47,7 +47,7 @@ const Scroller = () => {
           ].map((car) => (
             <img
               key={car}
-              src={`/public/assets/${car}.png`}
+              src={`/assets/${car}.png`}
               className="cursor-pointer w-24 h-auto" // Adjust width for responsiveness
               alt={car}
             />

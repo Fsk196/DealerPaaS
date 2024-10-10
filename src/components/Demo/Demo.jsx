@@ -122,7 +122,7 @@ const Demo = () => {
             {/* Video tag  */}
             <div className="demoRight">
               <video
-                src="/public/assets/DealerPaas.mp4"
+                src="/assets/DealerPaas.mp4"
                 controls
                 className="w-[500px] rounded-xl shadow-lg border-0 focus:outline-none"
               ></video>

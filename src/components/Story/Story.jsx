@@ -68,7 +68,7 @@ const Story = () => {
 
           <div className="storyRight">
             <img
-              src="/public/assets/about.jpg"
+              src="/assets/about.jpg"
               alt="dealerpaas"
               className="rounded-lg w-[500px] transition-all duration-200 ease-in-out"
             />

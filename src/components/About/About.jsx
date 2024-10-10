@@ -70,7 +70,7 @@ const About = () => {
           <div className="flex flex-col md:w-[50%] h-full p-4 aboutRight">
             <div className="w-full h-full p-4 rounded-lg flex items-center">
               <img
-                src="/public/assets/dealerpaas.png"
+                src="/assets/dealerpaas.png"
                 alt="dealerpaas"
                 className="rounded-lg w-[500px] transition-all duration-200 ease-in-out"
               />

@@ -222,7 +222,7 @@ const Contact = () => {
 
           <div className="contactImage max-w-[50%] hidden md:flex flex-col justify-center items-center">
             <img
-              src="/public/assets/contactLogo2.png"
+              src="/assets/contactLogo2.png"
               alt="contact"
               className="hover:scale-105 transition-all duration-400 ease-in-out hover:rotate-6"
             />
