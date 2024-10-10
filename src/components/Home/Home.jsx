@@ -50,7 +50,7 @@ const Home = () => {
             id="getStart"
             className="bg-white border-2 border-[#CCCCCC] rounded-full animate-bounce drop-shadow-lg"
           >
-            <div className="z-10 shadow-[#3919BA]/10 shadow-md flex gap-2 md:gap-4 border-2 border-[#CCCCCC] rounded-full bg-white px-2 py-1 items-center">
+            <div className="z-10 shadow-[#3919BA]/10 shadow-md flex gap-2 md:gap-6 border-2 border-[#CCCCCC] rounded-full bg-white px-2 py-1 items-center">
               <h2 className="bg-[#3919BA] rounded-full px-3 py-1 text-white text-sm">
                 New
               </h2>
@@ -60,13 +60,15 @@ const Home = () => {
 
           {/* Element */}
           <div className="my-[30px] flex flex-col md:items-center">
-            <h2 className="md:text-[50px] text-3xl font-bold mainHeading">
-              First Smart EV Automotive{" "}
-              <span className="text-[#3919BA]">Dealership</span>
-            </h2>
-            <h2 className="md:text-[50px] text-3xl font-bold mainHeading">
-              Management System(DMS)
-            </h2>
+            <div className="flex flex-col md:gap-6 md:items-center">
+              <h2 className="md:text-[50px]  text-3xl font-bold mainHeading">
+                First Smart EV Automotive{" "}
+                <span className="text-[#3919BA]">Dealership</span>
+              </h2>
+              <h2 className="md:text-[50px] text-3xl font-bold mainHeading">
+                Management System(DMS)
+              </h2>
+            </div>
 
             <p className="md:text-3xl text-xl text-[#505050] mt-3 para1">
               We have everything you need to manage your OEM and
