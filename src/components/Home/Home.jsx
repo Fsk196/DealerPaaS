@@ -37,14 +37,23 @@ const Home = () => {
       ease: "expo.inOut",
       stagger: 0.2,
     });
+
+    gsap.from(".homeDashImage", {
+      opacity: 0,
+      y: 100,
+      duration: 1,
+      delay: 1.5,
+      ease: "expo.inOut",
+      stagger: 0.2,
+    })
   }, []);
   return (
     <>
       <div
         id="home"
-        className="w-full h-screen bg-gradient-to-b from-white via-white to-[#3919BA]/60 rounded-lg border overflow-x-hidden"
+        className="w-full h-[700px] md:h-screen overflow-hidden  relative bg-gradient-to-b from-white via-white to-[#3919BA]/60 rounded-lg border overflow-x-hidden flex flex-col"
       >
-        <div className="flex justify-center items-center h-[80%] p-2 flex-col px-5 md:px-0">
+        <div className="flex justify-center items-center h-[70%] p-2 flex-col px-5 md:px-0">
           {/* Get Start bar */}
           <div
             id="getStart"
@@ -84,6 +93,13 @@ const Home = () => {
               </Button>
             </div>
           </div>
+        </div>
+
+        {/* image card */}
+
+        <div className="absolute bottom-0 md:-bottom-7 w-full justify-center flex items-center px-5 md:px-0">
+          
+          <img src="/assets/DashboardImage.png" className="homeDashImage" alt="dashboard" />
         </div>
       </div>
     </>
