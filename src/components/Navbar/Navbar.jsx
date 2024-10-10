@@ -74,7 +74,7 @@ const Navbar = () => {
           </div>
 
           {/* Mobile Menu Button */}
-          <button onClick={toggleMenu}>
+          <button className="md:hidden" onClick={toggleMenu}>
             {isMenuOpen ? <IoClose size={30} /> : <IoMenu size={30} />}
           </button>
 
