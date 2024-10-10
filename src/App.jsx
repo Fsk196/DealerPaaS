@@ -21,7 +21,7 @@ function App() {
         <Demo />
         <Services />
         <About />
-        <Scroller  />
+        <Scroller />
         <Story />
         <Contact />
         <Faq />

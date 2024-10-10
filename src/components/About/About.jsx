@@ -60,7 +60,9 @@ const About = () => {
               </p>
               <div>
                 <Button className="bg-[#3919BA] button mt-[16px] demoButton px-4 py-5 text-white hover:bg-[#3919BA]/80 shadow-md">
-                  <a href="#contact" className="scroll-smooth">Request a Demo</a>
+                  <a href="#contact" className="scroll-smooth">
+                    Request a Demo
+                  </a>
                 </Button>
               </div>
             </div>
@@ -68,7 +70,7 @@ const About = () => {
           <div className="flex flex-col md:w-[50%] h-full p-4 aboutRight">
             <div className="w-full h-full p-4 rounded-lg flex items-center">
               <img
-                src="/src/assets/dealerpaas.png"
+                src="/public/assets/dealerpaas.png"
                 alt="dealerpaas"
                 className="rounded-lg w-[500px] transition-all duration-200 ease-in-out"
               />

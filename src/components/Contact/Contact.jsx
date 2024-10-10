@@ -68,7 +68,10 @@ const Contact = () => {
 
   return (
     <>
-      <div id="contact" className="w-full h-full py-10 my-4 shadow-lg contactpage">
+      <div
+        id="contact"
+        className="w-full h-full py-10 my-4 shadow-lg contactpage"
+      >
         <div className="max-w-[1280px] h-full gap-4 container mx-auto flex flex-col md:flex-row-reverse justify-between md:justify-evenly items-center px-5 md:px-0">
           <div className="contactForm md:max-w-[50%] flex flex-col p-10 gap-2 bg-white shadow-xl rounded-lg h-full">
             <h2 className=" text-2xl text-[#3919BA] font-medium">
@@ -219,7 +222,7 @@ const Contact = () => {
 
           <div className="contactImage max-w-[50%] hidden md:flex flex-col justify-center items-center">
             <img
-              src="/src/assets/contactLogo2.png"
+              src="/public/assets/contactLogo2.png"
               alt="contact"
               className="hover:scale-105 transition-all duration-400 ease-in-out hover:rotate-6"
             />

@@ -36,7 +36,8 @@ const Navbar = () => {
           {/* Logo */}
           <div>
             <img
-              src="/src/assets/logo.jpg"
+              // src="/src/assets/logo.jpg"
+              src="/public/assets/logo.jpg"
               className="cursor-pointer navLogo"
               alt="logo"
             />

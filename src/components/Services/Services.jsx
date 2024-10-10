@@ -106,7 +106,7 @@ const Services = () => {
           {/* Image */}
           <div className="my-3">
             <img
-              src="/src/assets/product2.jpg"
+              src="/public/assets/product2.jpg"
               className="serviceImage"
               alt="serviceImage"
             />

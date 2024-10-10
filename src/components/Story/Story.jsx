@@ -59,14 +59,16 @@ const Story = () => {
 
             <div>
               <Button className="bg-black button mt-[16px] demoButton px-4 py-5 text-white hover:bg-black/60 shadow-md">
-                <a href="#contact" className="scroll-smooth">Request a Demo</a>
+                <a href="#contact" className="scroll-smooth">
+                  Request a Demo
+                </a>
               </Button>
             </div>
           </div>
 
           <div className="storyRight">
             <img
-              src="/src/assets/about.jpg"
+              src="/public/assets/about.jpg"
               alt="dealerpaas"
               className="rounded-lg w-[500px] transition-all duration-200 ease-in-out"
             />
