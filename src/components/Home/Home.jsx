@@ -51,7 +51,7 @@ const Home = () => {
     <>
       <div
         id="home"
-        className="w-full h-[700px] md:h-screen overflow-hidden  relative bg-gradient-to-b from-white via-white to-[#3919BA]/60 rounded-lg border overflow-x-hidden flex flex-col"
+        className="w-full h-screen overflow-hidden  relative bg-gradient-to-b from-white via-white to-[#3919BA]/60 rounded-lg border overflow-x-hidden flex flex-col"
       >
         <div className="flex justify-center items-center h-[70%] p-2 flex-col px-5 md:px-0">
           {/* Get Start bar */}
